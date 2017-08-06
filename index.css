@@ -35,7 +35,7 @@ nav ul li a{
   display: flex;
   flex-direction: row;
   align-items: center;
-  outline: 1px solid red;
+
   justify-content: space-around;
 }
 
@@ -68,8 +68,8 @@ nav ul li a:active {
   box-sizing: border-box;
 }
 .menu img {
-  width: 50px;
-  height: 40px;
+  width: 43px;
+  height: 32px;
   margin: 5px;
   border-radius: 5px;
 }
@@ -79,12 +79,12 @@ nav ul li a:active {
   border: none;
   padding: 10px;
   border-radius: 5px;
-  font-size: 16px;
+  width: 80px;
   cursor: pointer;
 }
 
 .page {
-  outline: 1px solid red;
+
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -104,31 +104,43 @@ nav ul li a:active {
 }
 
 .profile {
-  outline: 1px solid red;
-  background-color: #48aae6;
-  width: 250px;
+
+  display: flex;
+  flex-direction: column;
+  width: 280px;
   height: 150px;
   margin: 5px;
   border-radius: 5px;
   box-sizing: border-box;
 }
 
+.profile-picture {
+  background-color: #48aae6;
+  /*height: 100px;*/
+  padding-top: 20px;
+
+}
+
 .profile-picture img {
-  border-radius: 3px;
+  border-radius: 6px;
+  width: 95px;
   float: left;
-  width: 100px;
 }
 
 .stats{
+  background-color: white;
   clear: both;
-  margin-top: 100px;
-  outline: 1px solid red;
+  height: 100px;
+  padding-top: 10px;
 }
 
-.profile p {
-  display: inline;
+.stats table{
+  border-spacing: 5px;
 }
 
+ h2, h4, p {
+  margin: 5px;
+}
 
 .trends {
   border: 1px solid yellow;
@@ -140,7 +152,6 @@ nav ul li a:active {
 }
 
 .tweet-box{
-  outline: 1px solid red;
   margin: 10px;
   background-color: #e8f4fb;
 }
@@ -153,7 +164,7 @@ nav ul li a:active {
   border-radius: 5px;
 }
 .timeline {
-  outline: 1px solid red;
+outline: 1px solid red;
   width: 450px;
   box-sizing: border-box;
 }
@@ -161,6 +172,10 @@ nav ul li a:active {
 .side-nav2 {
   border: 1px solid black;
   box-sizing: border-box;
-  width: 200px;
+  width: 250px;
   box-sizing: border-box;
+}
+
+.side-nav2 p {
+  display: inline-block;
 }
